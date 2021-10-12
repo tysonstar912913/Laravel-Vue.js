@@ -1,0 +1,64 @@
+
+.label {margin-right:5px;margin-bottom:5px !important;display:inline-block;} #wrapper {
+  position: relative;
+}
+
+.main-sidebar, .left-side {
+  padding-top: 70px;
+}
+
+.btn-group.pull-right.open .dropdown-menu {
+  display: block !important;
+}
+
+.sidebar-menu {
+  height: calc(100vh - 80px);
+}
+
+.sidebar-menu * {
+  font-size: 13px;
+}
+
+body {
+  font-size: 13px;
+}
+
+div[name='Datatable'] th, div[name='Datatable'] td {
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+div[name='Datatable'] div[name='HeaderSettings'] {
+  z-index: 1;
+}
+
+div[name='Datatable'] div[name='HeaderSettings']>button {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+div[name='Datatable'] .btn-xs {
+  font-size: 10px;
+}
+
+.form-control {
+  font-size: 13px;
+}
+
+.form-control:focus {
+  border: 1px solid #0088cc;
+  box-shadow: none;
+}
+
+.login .panel-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.login .panel-body {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 20px;
+}
